@@ -48,9 +48,30 @@ git clone https://github.com/Jkumar-05/EMG_CNN.git
 cd EMG_CNN
 ```
 
-Install the required packages:
+Create a virtual environment:
 
 ```bash
+python3 -m venv .venv
+```
+
+Activate it:
+
+**macOS/Linux**
+
+```bash
+source .venv/bin/activate
+```
+
+**Windows**
+
+```bash
+.venv\Scripts\activate
+```
+
+Install dependencies:
+
+```bash
+pip install --upgrade pip
 pip install -r requirements.txt
 ```
 
